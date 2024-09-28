@@ -25,7 +25,7 @@ const Hero = () => {
           level="h2"
           className="text-xl small:text-3xl leading-snug text-gray-300 font-light mt-4 drop-shadow-md"
         >
-          Elevate Your Home with Boujee's Elegant Designs
+          Elevate Your Home with Boujee&#39;s Elegant Designs
         </Heading>
 
         {/* Call to Action Button */}

@@ -1,4 +1,5 @@
 import { Suspense } from "react"
+import Image from 'next/image'
 
 import { listRegions } from "@lib/data"
 import LocalizedClientLink from "@modules/common/components/localized-client-link"
@@ -24,7 +25,12 @@ export default async function Nav() {
               className="txt-compact-xlarge-plus hover:text-ui-fg-base uppercase"
               data-testid="nav-store-link"
             >
-              <img src="https://res.cloudinary.com/dvcfefmys/image/upload/v1727473043/boujee-logo_pribgp.jpg" alt="Boujee Homes Logo" className="w-36" />
+             <Image 
+  src="https://res.cloudinary.com/dvcfefmys/image/upload/w_144,h_50/v1727473043/boujee-logo_pribgp.jpg"
+  alt="Boujee Homes Logo"
+  width={144} // Set desired width
+  height={50}  // Set desired height
+/>
             </LocalizedClientLink>
           </div>
 
